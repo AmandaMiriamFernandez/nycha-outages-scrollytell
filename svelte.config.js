@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -7,10 +7,15 @@ const config = {
 		runes: ({ filename }) => (filename.split(/[/\\]/).includes('node_modules') ? undefined : true)
 	},
 	kit: {
-		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
-		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
-		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
-		adapter: adapter()
+		// Static adapter: builds this into plain HTML/CSS/JS for GitHub Pages.
+		adapter: adapter(),
+		paths: {
+			// GitHub Pages serves project sites at username.github.io/repo-name,
+			// so every link/asset needs that prefix in production. The deploy
+			// workflow sets BASE_PATH; it's empty for local dev so `npm run dev`
+			// still works at the site root.
+			base: process.env.BASE_PATH ?? ''
+		}
 	}
 };
 
