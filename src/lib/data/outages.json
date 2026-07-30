@@ -1,0 +1,191 @@
+{
+  "summary": {
+    "total_outages": 6395,
+    "total_residents_affected": 3805645,
+    "total_units_affected": 2012238,
+    "avg_duration_hours": 8.6,
+    "pct_unplanned": 60.8,
+    "date_range_start": "October 2024",
+    "date_range_end": "January 2026"
+  },
+  "monthly": [
+    {
+      "year_month": "2024-10",
+      "count": 318
+    },
+    {
+      "year_month": "2024-11",
+      "count": 358
+    },
+    {
+      "year_month": "2024-12",
+      "count": 550
+    },
+    {
+      "year_month": "2025-01",
+      "count": 440
+    },
+    {
+      "year_month": "2025-02",
+      "count": 526
+    },
+    {
+      "year_month": "2025-03",
+      "count": 1202
+    },
+    {
+      "year_month": "2025-04",
+      "count": 614
+    },
+    {
+      "year_month": "2025-05",
+      "count": 480
+    },
+    {
+      "year_month": "2025-06",
+      "count": 230
+    },
+    {
+      "year_month": "2025-07",
+      "count": 232
+    },
+    {
+      "year_month": "2025-08",
+      "count": 191
+    },
+    {
+      "year_month": "2025-09",
+      "count": 264
+    },
+    {
+      "year_month": "2025-10",
+      "count": 236
+    },
+    {
+      "year_month": "2025-11",
+      "count": 246
+    },
+    {
+      "year_month": "2025-12",
+      "count": 306
+    },
+    {
+      "year_month": "2026-01",
+      "count": 202
+    }
+  ],
+  "boroughs": [
+    {
+      "borough": "Manhattan",
+      "outages": 1985,
+      "residents": 1143323,
+      "units": 623999
+    },
+    {
+      "borough": "Brooklyn",
+      "outages": 1581,
+      "residents": 1045382,
+      "units": 570625
+    },
+    {
+      "borough": "Bronx",
+      "outages": 1539,
+      "residents": 1301030,
+      "units": 653936
+    },
+    {
+      "borough": "Unknown",
+      "outages": 1110,
+      "residents": 236741,
+      "units": 124072
+    },
+    {
+      "borough": "Staten Island",
+      "outages": 117,
+      "residents": 66582,
+      "units": 32442
+    },
+    {
+      "borough": "Queens",
+      "outages": 63,
+      "residents": 12587,
+      "units": 7164
+    }
+  ],
+  "developments": [
+    {
+      "development": "THROGGS NECK",
+      "outages": 119,
+      "residents": 97738,
+      "units": 50701
+    },
+    {
+      "development": "EAST RIVER",
+      "outages": 117,
+      "residents": 92077,
+      "units": 56020
+    },
+    {
+      "development": "POMONOK",
+      "outages": 112,
+      "residents": 55759,
+      "units": 29878
+    },
+    {
+      "development": "CASTLE HILL",
+      "outages": 109,
+      "residents": 230012,
+      "units": 109813
+    },
+    {
+      "development": "MITCHEL",
+      "outages": 106,
+      "residents": 101732,
+      "units": 51818
+    },
+    {
+      "development": "BREUKELEN",
+      "outages": 103,
+      "residents": 25793,
+      "units": 13397
+    },
+    {
+      "development": "MONROE",
+      "outages": 92,
+      "residents": 98385,
+      "units": 46510
+    },
+    {
+      "development": "LINCOLN",
+      "outages": 89,
+      "residents": 19532,
+      "units": 10474
+    },
+    {
+      "development": "PELHAM PARKWAY",
+      "outages": 88,
+      "residents": 5294,
+      "units": 2970
+    },
+    {
+      "development": "FOREST",
+      "outages": 80,
+      "residents": 71246,
+      "units": 35601
+    }
+  ],
+  "plannedVsUnplanned": [
+    {
+      "type": "Planned",
+      "outages": 2508,
+      "residents": 908053,
+      "units": 483181
+    },
+    {
+      "type": "Unplanned",
+      "outages": 3887,
+      "residents": 2897592,
+      "units": 1529057
+    }
+  ]
+}
